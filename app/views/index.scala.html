@@ -1,0 +1,10 @@
+@(message: String)
+
+@main("Welcome to Play") {
+
+    <form action="@routes.Application.addCat()" method="post">
+        <input name="name"  type="text">
+        <button>Add Cat</button>
+    </form>
+
+}
